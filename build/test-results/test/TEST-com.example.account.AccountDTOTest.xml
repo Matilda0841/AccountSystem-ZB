@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.account.AccountDTOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-19T11:53:41" hostname="YUYA" time="0.107">
-  <properties/>
-  <testcase name="AccountDTO()" classname="com.example.account.AccountDTOTest" time="0.107"/>
-  <system-out><![CDATA[AccountDTO(accountNumber=account, nickName=null, registeredAT=null)
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
