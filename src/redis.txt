@@ -1,0 +1,9 @@
+@RestController
+@RequiredArgsConstructor
+public class Controller {
+  private final RedisTestSever redisTestSever;
+  @GetMapping("/get-lock")
+  public String getLock(){
+    return redisTestSever.getLock();
+  }
+}

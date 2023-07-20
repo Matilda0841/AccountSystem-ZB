@@ -9,7 +9,7 @@ import javax.annotation.PreDestroy;
 
 @Configuration
 public class LocalRedisConfig {
-  @Value("${spring.redis.Port}")
+  @Value("${spring.redis.port}")
   private int redisPort;
 
   private RedisServer redisServer;
