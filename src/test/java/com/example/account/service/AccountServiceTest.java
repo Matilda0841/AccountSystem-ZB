@@ -22,14 +22,13 @@ import static org.mockito.Mockito.verify;
 
 @ExtendWith(MockitoExtension.class)
 class AccountServiceTest {
-
   @Mock
   private AccountRepository accountRepository;
   @InjectMocks
   private AccountService accountService;
 
   @Test
-  void textXXX() {
+  void textSuccess() {
     // given 어떤 데이터가 있을때
     given(accountRepository.findById(anyLong()))
         .willReturn(Optional.of(Account.builder()
@@ -45,6 +44,16 @@ class AccountServiceTest {
     assertEquals(455L, captor.getValue());
     assertEquals("65789", account.getAccountNumber());
     assertEquals(AccountStatus.UNREGISTERED, account.getAccountStatus());
+  }
+  @Test
+  void textFailedToSearchAccount() {
+    // given 어떤 데이터가 있을때
+    // when 어떤 동작을 하면
+    RuntimeException exception = assertThrows(RuntimeException.class,
+        () -> accountService.getAccount(-10L));
+
+    //then
+    assertEquals("Minus", exception.getMessage());
   }
 
   @Test
