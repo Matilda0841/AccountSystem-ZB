@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="test commit">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/account/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/account/service/AccountServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +254,7 @@
       <workItem from="1689757909750" duration="11871000" />
       <workItem from="1689830701250" duration="3899000" />
       <workItem from="1689834651570" duration="11905000" />
-      <workItem from="1689905087641" duration="2200000" />
+      <workItem from="1689905087641" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -270,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689905262630</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임">
+      <option name="closed" value="true" />
+      <created>1689907729225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689907729225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +291,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
