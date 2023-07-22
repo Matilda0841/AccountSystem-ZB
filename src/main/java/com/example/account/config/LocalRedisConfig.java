@@ -15,14 +15,14 @@ public class LocalRedisConfig {
   private RedisServer redisServer;
 
   @PostConstruct
-  public void startRedis(){
+  public void startRedis() {
     redisServer = new RedisServer(redisPort);
     redisServer.start();
   }
 
   @PreDestroy
-  public void stopRedis(){
-    if (redisServer != null){
+  public void stopRedis() {
+    if (redisServer != null) {
       redisServer.stop();
     }
   }
