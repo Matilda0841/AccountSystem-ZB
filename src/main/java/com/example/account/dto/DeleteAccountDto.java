@@ -3,11 +3,13 @@ package com.example.account.dto;
 import lombok.*;
 
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
 
-public class CreateAccountDto {
+public class DeleteAccountDto {
 
   @Getter
   @Setter
@@ -18,9 +20,9 @@ public class CreateAccountDto {
     @Min(1)
     private long userId;
 
-    @NotNull
-    @Min(0)
-    private long initialBalance;
+    @NotBlank
+    @Size(min = 10, max = 10)
+    private String accountNumber;
   }
 
   @Getter
@@ -32,13 +34,13 @@ public class CreateAccountDto {
   public static class Response {
     private long userId;
     private String accountNumber;
-    private LocalDateTime registeredAt;
+    private LocalDateTime unregisteredAt;
 
     public static Response from(AccountDto accountDto) {
       return Response.builder()
           .userId(accountDto.getUserId())
           .accountNumber(accountDto.getAccountNumber())
-          .registeredAt(accountDto.getRegisteredAt())
+          .unregisteredAt(accountDto.getUnregisteredAt())
           .build();
     }
 

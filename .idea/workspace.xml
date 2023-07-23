@@ -4,45 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임">
-      <change afterPath="$PROJECT_DIR$/src/http 요청 ex .txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/config/JpaAuditingConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/domain/AccountUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/AccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/CreateAccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/exception/AccountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/repository/AccountUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/type/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/http/Account.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/DeleteAccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.account.service.AccountServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.account.service.AccountServiceTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.account.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.account.service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.account.service.AccountServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.account.service.AccountServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/LocalRedisConfig.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/AccountServiceTest.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/AccountServiceTest.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/AccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/config/LocalRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/config/LocalRedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/config/RedisRepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/config/RedisRepositoryConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/domain/AccountStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/type/AccountStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/dto/CreateAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/CreateAccountDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/repository/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/account/controller/AccountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/account/controller/AccountControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/account/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/account/service/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/type/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/type/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/http/Account.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/Account.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +118,9 @@
       <recent name="com.example.account.config" />
       <recent name="com.example.account" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.account.dto" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AccountApplication">
     <configuration name="AccountServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -163,30 +137,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.example.account.service.AccountServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="AccountServiceTest.createAccount_UserNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.account.service.AccountServiceTest.createAccount_UserNotFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -224,6 +174,9 @@
     <configuration name="Account | Create account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/Account.http" requestIdentifier="Create account" runType="단일 요청 실행">
       <method v="2" />
     </configuration>
+    <configuration name="Account | Delete account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/Account.http" index="2" requestIdentifier="Delete account" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
     <configuration name="Account 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/http/Account.http">
       <method v="2" />
     </configuration>
@@ -236,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP 요청.Account | Delete account" />
         <item itemvalue="HTTP 요청.Account | Create account" />
         <item itemvalue="HTTP 요청.Account 내 전체" />
         <item itemvalue="Gradle.AccountServiceTest" />
         <item itemvalue="Gradle.AccountServiceTest.createAccount_maxAccountIs10" />
-        <item itemvalue="Gradle.AccountServiceTest.createAccount_UserNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +212,8 @@
       <workItem from="1689918924495" duration="12285000" />
       <workItem from="1690005803836" duration="4518000" />
       <workItem from="1690010383343" duration="7306000" />
-      <workItem from="1690038528809" duration="2350000" />
+      <workItem from="1690038528809" duration="3426000" />
+      <workItem from="1690042880619" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -293,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689907771892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ">
+      <option name="closed" value="true" />
+      <created>1690041231882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690041231882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ">
+      <option name="closed" value="true" />
+      <created>1690041292588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690041292588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
+    <MESSAGE value="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ" />
+    <option name="LAST_COMMIT_MESSAGE" value="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

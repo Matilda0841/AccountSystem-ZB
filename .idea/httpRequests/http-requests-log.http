@@ -1,3 +1,115 @@
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000000"
+}
+
+<> 2023-07-23T014947.200.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000001"
+}
+
+<> 2023-07-23T014935.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 0
+}
+
+<> 2023-07-23T014929.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 0
+}
+
+<> 2023-07-23T014920.200.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000001"
+}
+
+<> 2023-07-23T014639.500.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 10000
+}
+
+<> 2023-07-23T014529.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 45
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 10000
+}
+
+<> 2023-07-23T014505.200.json
+
+###
+
 POST http://localhost:8080/account
 Content-Type: application/json
 Content-Length: 45
