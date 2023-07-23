@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DELETE http://localhost:8080/account
 Content-Type: application/json
 Content-Length: 51
@@ -110,6 +111,8 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 
 ###
 
+=======
+>>>>>>> 895624a67e2a2d428dc2521fb05657a9297556a8
 POST http://localhost:8080/account
 Content-Type: application/json
 Content-Length: 45
