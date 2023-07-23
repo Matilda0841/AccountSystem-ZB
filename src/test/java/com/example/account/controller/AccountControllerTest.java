@@ -1,12 +1,14 @@
 package com.example.account.controller;
 
 
+import com.example.account.domain.Account;
 import com.example.account.dto.AccountDto;
 import com.example.account.dto.CreateAccountDto;
 import com.example.account.dto.DeleteAccountDto;
 import com.example.account.service.AccountService;
 import com.example.account.service.RedisTestService;
 
+import com.example.account.type.AccountStatus;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -104,4 +108,32 @@ class AccountControllerTest {
         .andDo(print());
   }
 
+  @Test
+  void successGetAccountByUserId() throws Exception {
+    // given 어떤 데이터가 있을때
+    List<AccountDto> accountDtos =
+        Arrays.asList(
+            AccountDto.builder().accountNumber("1234567890")
+                .balance(1000L).build(),
+            AccountDto.builder().accountNumber("3456789012")
+                .balance(2000L).build(),
+            AccountDto.builder().accountNumber("2345678901")
+                .balance(3000L).build());
+
+    given(accountService.getAccountsByUserId(anyLong()))
+        .willReturn(accountDtos);
+
+    // when 어떤 동작을 하면
+
+
+    // then 어떤 결과가 나와야 한다
+    mockMvc.perform(get("/account?user_id=1"))
+        .andDo(print())
+        .andExpect(jsonPath("$[0].accountNumber").value("1234567890"))
+        .andExpect(jsonPath("$[0].balance").value(1000L))
+        .andExpect(jsonPath("$[1].accountNumber").value("3456789012"))
+        .andExpect(jsonPath("$[1].balance").value(2000L))
+        .andExpect(jsonPath("$[2].accountNumber").value("2345678901"))
+        .andExpect(jsonPath("$[2].balance").value(3000L));
+  }
 }

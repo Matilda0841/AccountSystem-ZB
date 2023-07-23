@@ -1,3 +1,313 @@
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T171318.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "1000"
+}
+
+<> 2023-07-23T171316.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "1000"
+}
+
+<> 2023-07-23T171315.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "1000"
+}
+
+<> 2023-07-23T171314.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "1000"
+}
+
+<> 2023-07-23T171313.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T171306.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T171104.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T170934.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "1000"
+}
+
+<> 2023-07-23T170928.200.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000005"
+}
+
+<> 2023-07-23T170611.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "0"
+}
+
+<> 2023-07-23T170605.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "100000"
+}
+
+<> 2023-07-23T170556.200.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000003"
+}
+
+<> 2023-07-23T170550.500.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000000"
+}
+
+<> 2023-07-23T170533.500.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "100000"
+}
+
+<> 2023-07-23T170523.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 48
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": "100000"
+}
+
+<> 2023-07-23T170519.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 0
+}
+
+<> 2023-07-23T170505.200.json
+
+###
+
+DELETE http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "accountNumber": "1000000000"
+}
+
+<> 2023-07-23T170339.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T170312.200.json
+
+###
+
+POST http://localhost:8080/account
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userId" : 1,
+  "initialBalance": 0
+}
+
+<> 2023-07-23T170305.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T170249.200.json
+
+###
+
+GET http://localhost:8080/account?user_id=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-07-23T170137.200.json
+
+###
+
 <<<<<<< HEAD
 DELETE http://localhost:8080/account
 Content-Type: application/json
@@ -440,134 +750,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2023-07-22T152653.500.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 44
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId": 1,
-  "initialBalance": 10000
-}
-
-<> 2023-07-22T152650.500.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 44
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId": 1,
-  "initialBalance": 10000
-}
-
-<> 2023-07-22T152637.200.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-22T151654.400.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-22T151648.400.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-22T151646.400.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-22T151642.400.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-22T151637.400.json
-
-###
-
-POST http://localhost:8080/account
-Content-Type: application/json
-Content-Length: 36
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "userId" : 1,
-  "value": 10000
-}
-
-<> 2023-07-21T183645.400.json
 
 ###
 

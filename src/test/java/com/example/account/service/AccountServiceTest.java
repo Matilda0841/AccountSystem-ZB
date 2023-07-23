@@ -16,6 +16,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -275,4 +277,61 @@ class AccountServiceTest {
     assertEquals(ErrorCode.ACCOUNT_ALREADY_UNREGISTERED, exception.getErrorCode());
 
   }// 계좌 해지 실패 5 계좌 이미 없음
+
+  @Test
+  void successGetAccountByUserId() {
+    // given 어떤 데이터가 있을때
+    AccountUser poby = AccountUser.builder()
+        .id(12L)
+        .name("poby").build();
+    List<Account> accounts = Arrays.asList(
+        Account.builder()
+            .accountUser(poby)
+            .accountNumber("1234567890")
+            .balance(1000L)
+            .build(),
+        Account.builder()
+            .accountUser(poby)
+            .accountNumber("2345678901")
+            .balance(2000L)
+            .build(),
+        Account.builder()
+            .accountUser(poby)
+            .accountNumber("3456789012")
+            .balance(3000L)
+            .build()
+    );
+    given(accountUserRepository.findById(anyLong()))
+        .willReturn(Optional.of(poby));
+    given(accountRepository.findByAccountUser(any()))
+        .willReturn(accounts);
+
+
+    // when 어떤 동작을 하면
+    List<AccountDto> accountDtos = accountService.getAccountsByUserId(1L);
+
+    // then 어떤 결과가 나와야 한다
+    assertEquals(3, accountDtos.size());
+    assertEquals("1234567890", accountDtos.get(0).getAccountNumber());
+    assertEquals(1000, accountDtos.get(0).getBalance());
+    assertEquals("2345678901", accountDtos.get(1).getAccountNumber());
+    assertEquals(2000, accountDtos.get(1).getBalance());
+    assertEquals("3456789012", accountDtos.get(2).getAccountNumber());
+    assertEquals(3000, accountDtos.get(2).getBalance());
+  }
+
+  @Test
+  void failedToGetAccounts(){
+    // given 어떤 데이터가 있을때
+    given(accountUserRepository.findById(anyLong()))
+        .willReturn(Optional.empty());
+
+    // when 어떤 동작을 하면
+    AccountException exception = assertThrows(AccountException.class,
+        () -> accountService.getAccountsByUserId(1L));
+
+    // then 어떤 결과가 나와야 한다
+    assertEquals(ErrorCode.USER_NOT_FOUND, exception.getErrorCode());
+
+  }
 }
