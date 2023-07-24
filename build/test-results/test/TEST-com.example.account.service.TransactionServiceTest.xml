@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.account.service.TransactionServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-24T12:45:50" hostname="YUYA" time="1.463">
+  <properties/>
+  <testcase name="해당 거래 없음 - 계좌 해지 실패" classname="com.example.account.service.TransactionServiceTest" time="1.463"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
