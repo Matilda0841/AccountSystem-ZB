@@ -6,9 +6,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
-
 public class CreateAccountDto {
-
   @Getter
   @Setter
   @ToString
@@ -35,6 +33,7 @@ public class CreateAccountDto {
     private LocalDateTime registeredAt;
 
     public static Response from(AccountDto accountDto) {
+
       return Response.builder()
           .userId(accountDto.getUserId())
           .accountNumber(accountDto.getAccountNumber())

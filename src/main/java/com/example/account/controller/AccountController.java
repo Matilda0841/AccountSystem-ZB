@@ -31,23 +31,10 @@ public class AccountController {
     );
   }
 
-
-//  @DeleteMapping ("/account")
-//  public DeleteAccountDto.Response deleteAccount(
-//      @RequestBody @Valid DeleteAccountDto.Request request
-//  ) {
-//    return DeleteAccountDto.Response.from(
-//        accountService.deleteAccount(
-//            request.getUserId(),
-//            request.getAccountNumber()
-//        )
-//    );
-//  }
-
   @DeleteMapping("/account")
-  public DeleteAccountDto.Response createAccount(
-      @RequestBody @Valid DeleteAccountDto.Request request
-  ) {
+  public DeleteAccountDto.Response deleteAccount(
+      @RequestBody @Valid DeleteAccountDto.Request request)
+  {
     return DeleteAccountDto.Response.from(
         accountService.deleteAccount(
             request.getUserId(),
@@ -67,7 +54,6 @@ public class AccountController {
 
   }
 
-
   @GetMapping("/get-lock")
   public String getLock() {
     return redisTestService.getLock();
@@ -76,6 +62,7 @@ public class AccountController {
   @GetMapping("/account/{id}")
   public Account getAccount(
       @PathVariable Long id) {
+
     return accountService.getAccount(id);
   }
 }

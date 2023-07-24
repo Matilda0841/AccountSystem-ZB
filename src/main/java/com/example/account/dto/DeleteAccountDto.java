@@ -8,7 +8,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
-
 public class DeleteAccountDto {
 
   @Getter
@@ -37,6 +36,7 @@ public class DeleteAccountDto {
     private LocalDateTime unregisteredAt;
 
     public static Response from(AccountDto accountDto) {
+
       return Response.builder()
           .userId(accountDto.getUserId())
           .accountNumber(accountDto.getAccountNumber())
@@ -45,6 +45,5 @@ public class DeleteAccountDto {
     }
 
   }
-
 
 }

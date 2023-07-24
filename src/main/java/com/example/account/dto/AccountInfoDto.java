@@ -1,6 +1,5 @@
 package com.example.account.dto;
 
-
 import lombok.*;
 
 @Getter
@@ -10,7 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class AccountInfoDto {
-  private  String accountNumber;
+  private String accountNumber;
   private Long balance;
 
 }
