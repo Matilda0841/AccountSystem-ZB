@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/DeleteAccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/dto/CreateAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/dto/CreateAccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/account/type/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/account/type/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/http/Account.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/http/Account.http" afterDir="false" />
-    </list>
+    <list default="true" id="a4607954-8998-4161-a78f-08e08f5d7163" name="변경" comment="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,38 +63,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;57bd9764120b7d4d144ef284b8fb6a57&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "introduce.parameter.lambda": "true",
+    "last_opened_file_path": "C:/Users/jr084/Coding/intel_j/MelonMusic-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "spring.configuration.checksum": "57bd9764120b7d4d144ef284b8fb6a57",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.account.dto" />
       <recent name="com.example.account.exception" />
       <recent name="com.example.account.repository" />
       <recent name="com.example.account.domain" />
@@ -122,8 +114,8 @@
       <recent name="com.example.account.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountApplication">
-    <configuration name="AccountServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TransactionServiceTest.cancelTransaction_TransactionNotFound">
+    <configuration name="TransactionServiceTest.cancelTransaction_AccountNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.account.service.AccountServiceTest&quot;" />
+            <option value="&quot;com.example.account.service.TransactionServiceTest.cancelTransaction_AccountNotFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +139,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="AccountServiceTest.createAccount_maxAccountIs10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TransactionServiceTest.cancelTransaction_CancleMustFully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +152,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.account.service.AccountServiceTest.createAccount_maxAccountIs10&quot;" />
+            <option value="&quot;com.example.account.service.TransactionServiceTest.cancelTransaction_CancleMustFully&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,13 +163,76 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Account | Create account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/Account.http" requestIdentifier="Create account" runType="단일 요청 실행">
+    <configuration name="TransactionServiceTest.cancelTransaction_TooOld" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.account.service.TransactionServiceTest.cancelTransaction_TooOld&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Account | Delete account" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/test/http/Account.http" index="2" requestIdentifier="Delete account" runType="단일 요청 실행">
+    <configuration name="TransactionServiceTest.cancelTransaction_TransactionNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.account.service.TransactionServiceTest.cancelTransaction_TransactionNotFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Account 내 전체" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/test/http/Account.http">
+    <configuration name="TransactionServiceTest.cancelTransaction_Transaction_AccountUnMatched" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.account.service.TransactionServiceTest.cancelTransaction_Transaction_AccountUnMatched&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -189,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP 요청.Account | Delete account" />
-        <item itemvalue="HTTP 요청.Account | Create account" />
-        <item itemvalue="HTTP 요청.Account 내 전체" />
-        <item itemvalue="Gradle.AccountServiceTest" />
-        <item itemvalue="Gradle.AccountServiceTest.createAccount_maxAccountIs10" />
+        <item itemvalue="Gradle.TransactionServiceTest.cancelTransaction_TransactionNotFound" />
+        <item itemvalue="Gradle.TransactionServiceTest.cancelTransaction_Transaction_AccountUnMatched" />
+        <item itemvalue="Gradle.TransactionServiceTest.cancelTransaction_CancleMustFully" />
+        <item itemvalue="Gradle.TransactionServiceTest.cancelTransaction_TooOld" />
+        <item itemvalue="Gradle.TransactionServiceTest.cancelTransaction_AccountNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +269,7 @@
       <workItem from="1690010383343" duration="7306000" />
       <workItem from="1690038528809" duration="3426000" />
       <workItem from="1690042880619" duration="2267000" />
+      <workItem from="1690089277068" duration="43045000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <option name="closed" value="true" />
@@ -263,7 +319,71 @@
       <option name="project" value="LOCAL" />
       <updated>1690041292588</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="07-23 CH7 - 08-04 계좌 해지 성공&#10;&#10;그래도 생성 파트보다 무난하게 넘어갔다 빨리 빨리 끝내자!!">
+      <option name="closed" value="true" />
+      <created>1690092382649</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690092382649</updated>
+    </task>
+    <task id="LOCAL-00008" summary="07-23 CH7 - 08-04 계좌 해지 성공&#10;&#10;그래도 생성 파트보다 무난하게 넘어갔다 빨리 빨리 끝내자!!">
+      <option name="closed" value="true" />
+      <created>1690092406712</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690092406712</updated>
+    </task>
+    <task id="LOCAL-00009" summary="07-23 CH7 - 08-04 계좌 해지 성공&#10;&#10;그래도 생성 파트보다 무난하게 넘어갔다 빨리 빨리 끝내자!!">
+      <option name="closed" value="true" />
+      <created>1690092420413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690092420413</updated>
+    </task>
+    <task id="LOCAL-00010" summary="07-23 CH7 - 08-04 계좌 해지 성공&#10;&#10;그래도 생성 파트보다 무난하게 넘어갔다 빨리 빨리 끝내자!!">
+      <option name="closed" value="true" />
+      <created>1690092616093</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690092616093</updated>
+    </task>
+    <task id="LOCAL-00011" summary="07-23 CH7 - 08-04 계좌 확인 성공&#10;&#10;오오 그래도 속도가 붙는다 아자!!">
+      <option name="closed" value="true" />
+      <created>1690106398852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690106398852</updated>
+    </task>
+    <task id="LOCAL-00012" summary="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음">
+      <option name="closed" value="true" />
+      <created>1690195191867</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690195191867</updated>
+    </task>
+    <task id="LOCAL-00013" summary="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음">
+      <option name="closed" value="true" />
+      <created>1690202765690</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690202765690</updated>
+    </task>
+    <task id="LOCAL-00014" summary="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음">
+      <option name="closed" value="true" />
+      <created>1690202838739</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690202838739</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +404,11 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="07.21 오전&#10;ch.7 드디어 끝남!&#10;&#10;오후부터는 ch.8-1부터 8-5 까지 할 예정임" />
     <MESSAGE value="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ" />
-    <option name="LAST_COMMIT_MESSAGE" value="07-23 ch 7 08장 3.계좌 생성 성공&#10;&#10;하 오류 한 20번은 만난 듯&#10;테스타 하다가 죽는 줄... 그래도 중간에 수정할 줄 알게 되고... 좋은거라고 생각하자 ㅠㅜ" />
+    <MESSAGE value="07-23 CH7 - 08-04 계좌 해지 성공&#10;&#10;그래도 생성 파트보다 무난하게 넘어갔다 빨리 빨리 끝내자!!" />
+    <MESSAGE value="07-23 CH7 - 08-04 계좌 확인 성공&#10;&#10;오오 그래도 속도가 붙는다 아자!!" />
+    <MESSAGE value="07-24 오후 9시45분 08-07 완료!&#10;&#10;하지만 끝까지 못했다 조금은 아쉬움&#10;&#10;그래도 이번엔 최선을 다했다" />
+    <MESSAGE value="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음" />
+    <option name="LAST_COMMIT_MESSAGE" value="07-24 오후 7시 08-06 완료&#10;&#10;드디어 잔액 사용 API 완료&#10;&#10;마지막까지 3개 남음" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
